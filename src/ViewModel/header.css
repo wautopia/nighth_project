@@ -1,0 +1,9 @@
+.Item{
+	display:inline-block;
+	display:flex;
+	flex-decoration:row;
+	float: right;
+	margin-top:75px;
+	margin-right: 7%;
+
+}

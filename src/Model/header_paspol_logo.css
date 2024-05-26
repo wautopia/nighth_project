@@ -1,0 +1,13 @@
+.Header_paspol_logo{
+	display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background-image: url(../Media/header_paspol_logo.png) no-repeat;
+    width: 266px;
+    height: 72px;
+    background-size: 266px 72px;
+        float: left;
+    margin-top: 50px;
+    margin-left: 7%
+}
