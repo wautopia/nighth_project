@@ -1,11 +1,11 @@
 import './header_paspol_logo.css';
 
 
-function Header_paspol_logo(){
+function HeaderPaspolLogo(){
 	return (
 		<div className="Header_paspol_logo">
 		</div>
 	)
 }
 
- export default Header_paspol_logo;
+ export default HeaderPaspolLogo;

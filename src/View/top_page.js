@@ -2,17 +2,15 @@ import Header from '../ViewModel/header';
 import TopMain from '../ViewModel/top_main';
 import Footer from '../ViewModel/footer';
 
-function Top_page () {
+function TopPage () {
 	return(
 		<div className="Top_page">
 			<Header/>
-			
+			<TopMain/>
+			<Footer/>
 		</div>
 	)
 }
 
-export default Top_page;
+export default TopPage;
 
-
-//<TopMain/>
-//<Footer/>

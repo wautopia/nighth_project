@@ -1,9 +1,9 @@
 import './header_item.css';
 import { Link } from 'react-router-dom';
 
-function Header_item(props) {
+function HeaderItem(props) {
 	return(
-		<div className="Header_item">
+		<div className="HeaderItem">
 			<Link className="h-link" to={props.h_link}>
 				<div className="h-item">{props.h_item}</div>
 			</Link>
@@ -11,4 +11,4 @@ function Header_item(props) {
 	)
 }
 
-export default Header_item;
+export default HeaderItem;
