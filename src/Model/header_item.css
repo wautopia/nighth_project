@@ -1,14 +1,22 @@
-.HeaderItem{
-	display:flex;
-	flex-decoration:row;
-	margin-right:40px;
+.HeaderItem {
+	display: flex;
+	flex-direction: row;
+	margin-right: 40px;
+	color: white;
+	
 }
 
 .h-link{
 	all:unset;
 }
 
-.h-link:hover{
-	
+
+.h-item:hover {
+	cursor: pointer;
+	border-bottom: 2px solid #ffffff;
+	display: inline-block;
+	padding-bottom: 8px;
 }
+
+
 

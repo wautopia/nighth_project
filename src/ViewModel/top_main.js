@@ -1,5 +1,5 @@
 import './top_main.css';
-import TopMainVisual from '../Model/top_main_visual';
+import { TopMainVisual } from '../Model/top_main_visual';
 
 function TopMain () {
 	return (

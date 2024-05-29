@@ -5,7 +5,7 @@ function HeaderItem(props) {
 	return(
 		<div className="HeaderItem">
 			<Link className="h-link" to={props.h_link}>
-				<div className="h-item">{props.h_item}</div>
+				<p className="h-item">{props.h_item}</p>
 			</Link>
 		</div>
 	)

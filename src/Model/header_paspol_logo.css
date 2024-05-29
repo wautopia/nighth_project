@@ -1,13 +1,19 @@
-.HeaderPaspolLogo{
-	display: block;
+.HeaderPaspolLogoLink{
+    all:unset;
+}
+
+.HeaderPaspolLogo {
+    display: block;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background-image: url(../Media/header_paspol_logo.png) no-repeat;
+    background-image: url(../Media/header_paspol_logo.png);
+    background-repeat: no-repeat;
     width: 266px;
     height: 72px;
     background-size: 266px 72px;
-        float: left;
+    float: left;
     margin-top: 50px;
-    margin-left: 7%
+    margin-left: 7%;
+    cursor: pointer;
 }

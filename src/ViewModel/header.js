@@ -1,7 +1,7 @@
 import './header.css';
 import HeaderItem from '../Model/header_item';
 import HeaderPaspolLogo from '../Model/header_paspol_logo';
-import { Link } from 'react-router-dom';
+
 
 
 function Header () {
@@ -17,22 +17,22 @@ function Header () {
 				/>
 
 				<HeaderItem
-					h_link='/product_page'
+					h_link='/products'
 					h_item="PRODUCT"
 				/>
 
 				<HeaderItem
-					h_link='/about_page'
+					h_link='/about'
 					h_item="ABOUT"
 				/>
 
 				<HeaderItem
-					h_link='/news_page'
+					h_link='/news'
 					h_item="NEWS"
 				/>
 
 				<HeaderItem
-					h_link='/contact_page'
+					h_link='/contact'
 					h_item="CONTACT"
 				/>
 			</div>
