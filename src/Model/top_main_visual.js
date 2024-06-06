@@ -1,4 +1,6 @@
 import './top_main_visual.css';
+import TopMainVisualArrow from '../Model/top_main_visual_arrow';
+import TopMainVisualOverlay from '../Model/top_main_visual_overlay';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import TopMainVisual1 from '../Media/top_main_visual1.jpg';
@@ -45,6 +47,9 @@ export function TopMainVisual () {
                     <img src={TopMainVisual5} className="TopMainVisualImg" alt="" />
                 </SwiperSlide>
             </Swiper>
+            <TopMainVisualArrow />
+            <TopMainVisualOverlay/>
+
 		</div>
 	)
 }

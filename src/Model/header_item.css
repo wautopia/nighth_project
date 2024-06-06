@@ -3,7 +3,7 @@
 	flex-direction: row;
 	margin-right: 40px;
 	color: white;
-	
+	position: relative;
 }
 
 .h-link{
@@ -11,12 +11,12 @@
 }
 
 
-.h-item:hover {
+.h-item {
 	cursor: pointer;
-	border-bottom: 2px solid #ffffff;
-	display: inline-block;
-	padding-bottom: 8px;
 }
 
+.h-item:hover{
+	border-bottom: solid 1px white;
+}
 
 

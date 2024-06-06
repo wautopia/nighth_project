@@ -1,3 +1,12 @@
-.TopMainVisualArrow{
-	background-image:url(../Media/top_main_visual_arrow.png);
+.TopMainVisualArrow {
+	background-image: url(../Media/top_main_visual_arrow.png);
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 13px;
+	background-size: 22px 13px;
+	bottom: 105px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	z-index: 2;
 }

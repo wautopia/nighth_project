@@ -1,0 +1,42 @@
+.TopMainNew {
+    margin-left: 551px;
+    margin-right: 569px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.NewsImg {
+    width: 40%;
+    height: 10%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.NewsDetails {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.NewsTitle {
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+}
+
+.NewsDate {
+    text-align: left;
+    color: #656c6e;
+    font-size: 12px;
+    margin: 5px 0 0;
+    font-family: "Gill Sans Std Book", sans-serif;
+}
+
+.NewsDescription {
+    text-align: left;
+    font-size: 13px;
+    color: #656c6e;
+    margin: 20px 0 0;
+}

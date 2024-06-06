@@ -1,0 +1,25 @@
+.FooterPaspol {
+    background-color: #656c6e;
+    padding: 35px 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.FooterPaspolLogoImg {
+    width: 90px;
+    margin-right: 270px;
+}
+
+.Copylight {
+    margin: 0;
+    font-size: 9px;
+    color: #fff;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}

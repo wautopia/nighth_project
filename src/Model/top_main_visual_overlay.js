@@ -1,6 +1,6 @@
 import './top_main_visual_overlay.css';
 
-funciton TopMainVisualOverlay () {
+function TopMainVisualOverlay () {
 	return (
 		<div className="TopMainVisualOverlay">
 		</div>

@@ -1,0 +1,14 @@
+.TopMainTitle {
+    float: left;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    background-image: url(../Media/top_main_title_underline.png);
+    background-repeat:no-repeat;
+    background-size: 68px 8px;
+    background-position: 0 bottom;
+    padding-bottom: 17px;
+    line-height: 1;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}

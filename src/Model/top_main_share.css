@@ -1,0 +1,40 @@
+.TopMainShare{
+    
+}
+
+.ShareButton {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin: 0 15px;
+    border: 1px solid black;
+    width: 162px;
+    height: 46px;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.TopMainBackToTop {
+}
+
+.BackToTop {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translateY(29px);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-property: all;
+}
+
+    .BackToTop:hover {
+        transform: translateY(24px);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        transition-property: all;
+    }
+
+    
+

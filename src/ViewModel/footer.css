@@ -1,0 +1,13 @@
+.Footer {
+    position: absolute;
+    top: 562%;
+    width: 100%;
+    background-color: #939899;
+    padding: 30px 0;
+}
+
+.FooterItemDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

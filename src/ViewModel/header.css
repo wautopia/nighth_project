@@ -4,11 +4,11 @@
 	width: 100%;
 }
 
-.Item {
+.HeaderItemDetails {
 	display: inline-block;
 	display: flex;
 	flex-direction: row;
 	float: right;
-	margin-top: 75px;
+	margin-top: 50px;
 	margin-right: 7%;
 }

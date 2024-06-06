@@ -1,0 +1,30 @@
+.TopMainMoreButton {
+    display: inline-block;
+    width: 162px;
+    height: 46px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #13191b;
+    border: 1px solid #13191b;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    margin-left: 455px;
+}
+
+.TopMainMoreArrow {
+    background-image: url(../Media/top_main_more_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 8px 12px;
+    background-position: 140px 50%;
+}
+
+.TopMainMoreButton:hover {
+    color: white;
+    display:inline-block;
+    background-color:black;
+}
+
+.TopMainMoreArrow.hover{
+    filter: invert(100%);
+}
