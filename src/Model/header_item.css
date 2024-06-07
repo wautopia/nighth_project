@@ -6,13 +6,21 @@
 	position: relative;
 }
 
-.h-link{
-	all:unset;
+@media (width < 900px) {
+	.HeaderItem {
+		border-bottom: solid 1px white;
+		margin: 0;
+	}
 }
 
+.h-link{
+	all:unset;
+	
+}
 
 .h-item {
 	cursor: pointer;
+	margin-left:60px;
 }
 
 .h-item:hover{

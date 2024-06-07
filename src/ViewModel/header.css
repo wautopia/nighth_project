@@ -5,10 +5,37 @@
 }
 
 .HeaderItemDetails {
-	display: inline-block;
 	display: flex;
 	flex-direction: row;
 	float: right;
 	margin-top: 50px;
 	margin-right: 7%;
+}
+
+@media (width < 900px){
+	.HeaderItemDetails {
+		display: flex;
+		flex-direction: column;
+		float: left;
+		margin: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+}
+
+.MobileMenu{
+	display:none;
+}
+
+@media (width < 900px){
+	.MobileMenu {
+		display: block;
+		background-color: white;
+		color: black;
+	}
+
+	.h-item-menu {
+		float: left;
+		margin-left: 60px;
+	}
 }
