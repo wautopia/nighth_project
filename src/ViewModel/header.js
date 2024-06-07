@@ -1,6 +1,7 @@
 import './header.css';
 import HeaderItem from '../Model/header_item';
 import HeaderPaspolLogo from '../Model/header_paspol_logo';
+import HeaderBergerMenu from '../Media/header_berger_menu.png';
 
 
 function Header () {
@@ -29,6 +30,7 @@ function Header () {
 					h_item="CONTACT"
 				/>
 				<div className="MobileMenu">
+					<img src={HeaderBergerMenu } className="HeaderBergerMenu"></img>
 					<p className="h-item-menu">
 						MENU
 					</p>
