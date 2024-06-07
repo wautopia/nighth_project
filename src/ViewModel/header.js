@@ -30,7 +30,7 @@ function Header () {
 					h_item="CONTACT"
 				/>
 				<div className="MobileMenu">
-					<img src={HeaderBergerMenu } className="HeaderBergerMenu"></img>
+					<img src={HeaderBergerMenu} className="HeaderBergerMenu" alt=""/>
 					<p className="h-item-menu">
 						MENU
 					</p>
