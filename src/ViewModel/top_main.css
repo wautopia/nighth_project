@@ -10,6 +10,15 @@
     padding-bottom: 110px;
 }
 
+@media (width < 900px) {
+    .TopMainProduct{
+        position:absolute;
+        top:238%;
+        margin-left:57px;
+        margin-right:40px;
+    }
+}
+
 
 .ProductTitle-MoreButton {
     display: flex;
@@ -29,6 +38,13 @@
     top: 317%;
 }
 
+@media (width < 900px) {
+    .TopMainNews{
+        position:absolute;
+        top:408%;
+    }
+}
+
 .NewsTitle-MoreButton {
     display: flex;
     flex-direction: row;
@@ -39,6 +55,12 @@
     width: 780px;
 }
 
+@media (width < 900px) {
+    .NewsTitle-MoreButton{
+        margin-left:57px;
+    }
+}
+
 .TopMainShares {
     display: flex;
     flex-direction: column;
@@ -46,6 +68,12 @@
     z-index: 3;
     top: 544%;
     width: 100%;
+}
+
+@media (width < 900px) {
+    .TopMainShares{
+        top:5124px;
+    }
 }
 
 .SharesDetails {

@@ -10,3 +10,10 @@
 	position: absolute;
 	z-index: 2;
 }
+
+@media (width < 900px) {
+	.TopMainVisualArrow {
+		bottom:37px;
+	}
+
+}

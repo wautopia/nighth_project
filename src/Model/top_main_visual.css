@@ -9,3 +9,9 @@
     height: 100%;
     pointer-events: fill;
 }
+
+@media (width < 900px) {
+    .TopMainVisualImg{
+        height: 750px;
+    }
+}

@@ -16,7 +16,6 @@
 	.HeaderItemDetails {
 		display: flex;
 		flex-direction: column;
-		float: left;
 		margin: 0;
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.7);

@@ -8,10 +8,24 @@
     bottom: -883px;
 }
 
+@media ( width < 900px ) {
+    .TopMainConcept {
+        position: absolute;
+        bottom: -984px;
+    }
+}
+
 .concept-description {
     margin: 0px 24%;
     padding: 0 16%;
 }
+
+@media ( width < 900px ) {
+    .concept-description {
+        margin: 0px 14%;
+    }
+}
+
 
 .c-title {
     text-align: center;

@@ -6,6 +6,13 @@
     margin-top: 60px;
 }
 
+@media (width < 900px){
+    .TopMainNew {
+        margin-left: 57px;
+        margin-right: 56px;
+    }
+}
+
 .NewsImg {
     width: 40%;
     height: 10%;

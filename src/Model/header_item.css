@@ -1,7 +1,5 @@
 .HeaderItem {
-	display: flex;
-	flex-direction: row;
-	margin-right: 40px;
+	
 	color: white;
 	position: relative;
 }
@@ -21,6 +19,12 @@
 .h-item {
 	cursor: pointer;
 	margin-left:60px;
+}
+
+@media (width < 900px) {
+	.h-item{
+		float:left;
+	}
 }
 
 .h-item:hover{
