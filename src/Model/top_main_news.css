@@ -1,42 +1,147 @@
+.TopMainNews {
+    position: relative;
+    z-index: 3;
+    background-color: #f6f6f6;
+    padding: 110px 0;
+    width: 100%;
+}
+
+
+@media (width <= 700px) {
+    .TopMainNews {
+        padding: 70px 0;
+    }
+}
+
+.NewsTitle-MoreButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (width = 500px) {
+    .NewsTitle-MoreButton {
+        display: none;
+    }
+}
+
+@media (width > 500px) {
+    .NewsTitle {
+        display: none;
+    }
+}
+
+@media (width > 500px) {
+    .MoreButton {
+        display: none;
+    }
+}
+
+@media (width = 500px) {
+    .NewsTitle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (width = 500px) {
+    .MoreButton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px
+    }
+}
+
+.NewsDetails {
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5%;
+}
+
+@media (width = 500px) {
+    .NewsDetails {
+        padding: 0 7%;
+    }
+}
+
 .TopMainNew {
-    margin-left: 551px;
-    margin-right: 569px;
     display: flex;
     flex-direction: row;
     margin-top: 60px;
 }
 
+<<<<<<< Updated upstream
+=======
+@media (width = 500px){
+    .TopMainNew {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+}
+
+>>>>>>> Stashed changes
 .NewsImg {
     width: 40%;
     height: 10%;
     padding-right: 15px;
-    padding-left: 15px;
     margin: 0;
 }
 
-.NewsDetails {
+@media (width = 500px) {
+    .NewsImg {
+        width: 100%;
+    }
+}
+
+.NewsDetail {
     display: flex;
     flex-direction: column;
-    padding-right: 15px;
     padding-left: 15px;
 }
-.NewsTitle {
-    text-align: left;
-    margin: 0;
-    font-size: 18px;
+
+@media (width = 500px) {
+    .NewsDetail {
+        padding-left: 0;
+    }
 }
 
-.NewsDate {
-    text-align: left;
-    color: #656c6e;
-    font-size: 12px;
-    margin: 5px 0 0;
-    font-family: "Gill Sans Std Book", sans-serif;
-}
+    .NewsTitle {
+        text-align: left;
+        margin: 0;
+        font-size: 18px;
+    }
 
-.NewsDescription {
-    text-align: left;
-    font-size: 13px;
-    color: #656c6e;
-    margin: 20px 0 0;
-}
+    @media (width = 500px) {
+        .NewsTitle {
+            
+        }
+    }
+
+
+
+    .NewsDate {
+        text-align: left;
+        color: #656c6e;
+        font-size: 12px;
+        margin: 5px 0 0;
+        font-family: "Gill Sans Std Book", sans-serif;
+    }
+
+    .NewsDescription {
+        text-align: left;
+        font-size: 13px;
+        color: #656c6e;
+        margin: 20px 0 0;
+    }
+
+    @media (width = 500px) {
+        .NewsDescription {
+            display: none;
+        }
+    }
+

@@ -9,35 +9,25 @@ function Footer () {
 				<FooterItem
 					f_link='/'
 					f_item1="TOP"
-					
 				/>
-
 				<FooterItem
 					f_link='/products'
-					f_item1="PRODUCT"
-					
+					f_item1="PRODUCT"	
 				/>
-
 				<FooterItem
 					f_link='/about'
 					f_item1="ABOUT"
-					
 				/>
-
 				<FooterItem
 					f_link='/news'
-					f_item1="NEWS"
-					
+					f_item1="NEWS"	
 				/>
-
 				<FooterItem
 					f_link='/contact'
 					f_item1="CONTACT"
-					
 				/>
 			</div>
 			<FooterPaspol/>
-
 		</div>
 	)
 }

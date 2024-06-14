@@ -1,23 +1,143 @@
-.Products {
+.TopMainProducts {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+    padding: 110px 4%
+}
+
+@media (width <= 700px) {
+    .TopMainProducts {
+        padding: 70px 4%
+    }
+}
+
+@media (width = 500px) {
+    .TopMainProducts {
+        padding: 0 4%;
+        margin: 70px 0;
+    }
+}
+
+
+.ProductTitle-MoreButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 820px;
+}
+
+@media (width = 500px) {
+    .ProductTitle-MoreButton {
+        display: none;
+        
+    }
+}
+
+@media (width > 500px) {
+    .ProductTitle {
+        display:none;
+    }
+}
+
+@media (width > 500px) {
+    .MoreButton {
+        display: none;
+    }
+}
+
+@media (width = 500px) {
+    .ProductTitle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (width = 500px) {
+    .MoreButton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px
+    }
+}
+
+.TopMainProduct {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 167px;
-    padding-right: 47px;
-    padding-left: 47px;
+    width: 29%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-top: 60px;
 }
 
-.products-img {
-    width: 141%;
+@media (width <= 780px){
+    .TopMainProduct {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 63px;
+    }
 }
 
-.products-title {
+@media (width = 500px) {
+    .TopMainProduct {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+@media (width <= 780px) {
+    .product-img {
+        width:33%;
+    }
+}
+
+@media (width = 500px) {
+    .product-img {
+        width: 100%;
+    }
+}
+
+.product-title {
     margin: 20px 0 0;
     padding: 0 20px;
     font-size: 20px;
     letter-spacing: 0.1em;
-    width: 111%;
+    width: 82%;
     text-align: left;
 }
+
+@media (width <= 780px) {
+    .product-title {
+        margin: 0;
+        padding: 52px 0 0 30px;
+        height: 100%;
+    }
+}
+
+@media (width = 500px) {
+    .product-title {
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        width: 81%;
+    }
+}
+
+
+
 

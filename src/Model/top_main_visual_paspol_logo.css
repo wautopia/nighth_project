@@ -1,0 +1,18 @@
+.TopMainVisualPaspolLogo {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 92vh;
+    align-content: center;
+}
+
+.TopMainVisualPaspolLogo img {
+    width: 25%;
+    min-width: 203px;
+}
+
+@media (width > 900px){
+    .TopMainVisualPaspolLogo{
+        display:none;
+    }
+}

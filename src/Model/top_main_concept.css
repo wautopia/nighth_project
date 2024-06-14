@@ -1,18 +1,37 @@
 .TopMainConcept {
-    position: absolute;
+    position: relative;
     z-index: 3;
     background-color: #f6f6f6;
     padding-top: 110px;
     padding-bottom: 110px;
     width: 100%;
-    bottom: -883px;
 }
 
+<<<<<<< Updated upstream
+=======
+@media ( width <= 700px ) {
+    .TopMainConcept {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+>>>>>>> Stashed changes
 .concept-description {
-    margin: 0px 24%;
-    padding: 0 16%;
+    max-width: 370px;
+    margin: 0 auto 0 auto;
 }
 
+<<<<<<< Updated upstream
+=======
+@media ( width <= 700px ) {
+    .concept-description {
+        margin: 0 auto 0 7%;
+    }
+}
+
+
+>>>>>>> Stashed changes
 .c-title {
     text-align: center;
     font-size: 44px;
@@ -21,10 +40,32 @@
     margin: 0 0 70px 0;
 }
 
+@media ( width <= 700px ){
+    .c-title {
+        text-align: left;
+    }
+}
+
+@media ( width = 500px ) {
+    .c-title {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+}
+
 .c-sentence {
     font-size: 20px;
     text-align: left;
     margin: 0 auto 21px auto;
+}
+
+@media ( width = 500px ) {
+    .c-sentence {
+        font-size: 15px;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
 }
 
 .c-paspol-logo {
@@ -39,3 +80,10 @@
     white-space: nowrap;
 }
 
+@media ( width = 500px ) {
+    .c-paspol-logo {
+        transform: scale(0.6);
+        transform-origin: 0 50%;
+        margin: 15px 0 15px 0;
+    }
+}

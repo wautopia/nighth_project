@@ -12,3 +12,10 @@
     font-family: "Gill Sans Std Book", sans-serif;
     letter-spacing: 0.1em;
 }
+
+@media (width = 500px) {
+    .TopMainTitle {
+        font-size: 29px;
+        background-position: bottom;
+    }
+}

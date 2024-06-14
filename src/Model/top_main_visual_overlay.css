@@ -1,12 +1,19 @@
 .TopMainVisualOverlay {
 	background-image: url(../Media/top_main_visual_overlay.png);
 	background-repeat: no-repeat;
-	background-size: contain;
-	width: 100%;
-	height: 100%;
+	background-position: bottom;
 	position: absolute;
-	z-index: 2;
-	bottom: 42px;
-	left: 0;
-	background-position: 0 bottom;
+	background-size: contain;
+	z-index: 3;
+	width: 100%;
+	height: 97vh;
 }
+<<<<<<< Updated upstream
+=======
+
+@media (width <= 500px) {
+	.TopMainVisualOverlay {
+		height: 102vh;
+	}
+}
+>>>>>>> Stashed changes
