@@ -13,8 +13,7 @@
 	display: flex;
 	margin-right: 7%;
 }
-<<<<<<< Updated upstream
-=======
+
 
 @media (width <= 900px){
 	.HeaderItemDetails {
@@ -49,4 +48,4 @@
 		margin-left: 40px;
 	}
 }
->>>>>>> Stashed changes
+

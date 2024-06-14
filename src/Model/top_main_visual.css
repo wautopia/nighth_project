@@ -1,12 +1,11 @@
 .TopMainVisual {
     width: 100%;
-<<<<<<< Updated upstream
+
     height: 100%;
     pointer-events: fill;
 }
-=======
-    height: 97vh;
-}
+
+ 
 
 @media (width = 500px) {
     .TopMainVisual {
@@ -14,4 +13,4 @@
     }
 }
 
->>>>>>> Stashed changes
+

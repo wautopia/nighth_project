@@ -8,12 +8,11 @@
 	width: 100%;
 	height: 97vh;
 }
-<<<<<<< Updated upstream
-=======
+
 
 @media (width <= 500px) {
 	.TopMainVisualOverlay {
 		height: 102vh;
 	}
 }
->>>>>>> Stashed changes
+

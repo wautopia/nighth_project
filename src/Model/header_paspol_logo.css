@@ -6,12 +6,11 @@
     width: 50%;
     cursor: pointer;
 }
-<<<<<<< Updated upstream
-=======
+
 
 @media ( width <= 900px ){
     .HeaderPaspolLogo{
         display:none;
     }
 } 
->>>>>>> Stashed changes
+

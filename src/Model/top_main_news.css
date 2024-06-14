@@ -74,8 +74,7 @@
     margin-top: 60px;
 }
 
-<<<<<<< Updated upstream
-=======
+
 @media (width = 500px){
     .TopMainNew {
         display: flex;
@@ -84,7 +83,7 @@
     }
 }
 
->>>>>>> Stashed changes
+
 .NewsImg {
     width: 40%;
     height: 10%;

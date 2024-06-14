@@ -1,20 +1,14 @@
 .HeaderItem {
-<<<<<<< Updated upstream
 	display: flex;
 	flex-direction: row;
-	margin-right: 40px;
-=======
->>>>>>> Stashed changes
 	color: white;
 	margin-left: 40px;
 }
 
-<<<<<<< Updated upstream
 .h-link{
 	all:unset;
 }
 
-=======
 @media (width <= 900px) {
 	.HeaderItem {
 		
@@ -44,14 +38,12 @@
 	}
 
 
->>>>>>> Stashed changes
+
 
 .h-item {
 	padding-bottom: 8px;
 	color: white;
 	cursor: pointer;
-<<<<<<< Updated upstream
-=======
 	margin: 0;
 }
 
@@ -59,7 +51,6 @@
 	.h-item{
 		float:left;
 	}
->>>>>>> Stashed changes
 }
 
 
