@@ -11,8 +11,9 @@
 
 @media (width <= 900px) {
 	.HeaderItem {
-		
+		border-bottom: solid 1px white;
 		margin: 0;
+		height: 53px;
 	}
 }
 
@@ -37,6 +38,12 @@
 		opacity: 1;
 	}
 
+@media (width <= 900px) {
+	.h-link:hover::after {
+		opacity: 0;
+	}
+}
+
 
 
 
@@ -48,8 +55,9 @@
 }
 
 @media (width <= 900px) {
-	.h-item{
-		float:left;
+	.h-item {
+		margin: 16px 40px;
+		text-decoration:none;
 	}
 }
 

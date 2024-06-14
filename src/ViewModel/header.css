@@ -34,18 +34,18 @@
 		display: block;
 		background-color: white;
 		color: black;
-		
+		height: 53px;
 	}
 
 	.HeaderBergerMenu {
 		width: 15px;
 		float: right;
-		margin: 22px 60px 0 0;
+		margin-top: 8px;
 	}
 
 	.h-item-menu {
-		float: left;
-		margin-left: 40px;
+		margin: 16px 40px;
+		text-align: left;
 	}
 }
 
