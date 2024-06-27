@@ -39,12 +39,12 @@
     transition-property: all;
     transition-duration: .3s;
     margin: 0 15px;
+    border: 1px solid black;
 }
 
 @media (width <= 580px) {
     .TopMainShare {
-        margin: 5px 0;
-        padding: 0 5px;
+        margin: 5px 5px;
         width: 44.5%;
     }
 }
@@ -56,7 +56,7 @@
     letter-spacing: normal;
     word-spacing: normal;
     margin: 0;
-    border: 1px solid black;
+    
     width: 162px;
     height: 46px;
     line-height: 48px;
@@ -88,6 +88,8 @@
     .TopMainShare:hover .ShareButton {
         color: white;
     }
+
+
 
 .TopMainBackToTop {
     position: absolute;

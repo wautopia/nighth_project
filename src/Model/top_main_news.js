@@ -69,7 +69,7 @@ export function TopMainNew(props) {
 
 			<img src={props.img} className="NewsImg" alt="" width="800" height="365"></img>
             <div className="NewsDetail">
-                <p className="NewsTitle">{props.title}</p>
+                <p className="News-Title">{props.title}</p>
                 <p className="NewsDate">{props.date}</p>
                 <p className="NewsDescription">{props.description}</p>
             </div>
